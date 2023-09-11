@@ -1,6 +1,6 @@
-# threads management for slow caculation
+# threads management for slow calculation
  
-This is a threads management system for a slow caculator. You could type the following command to control the operation of threads.
+This is a threads management system for a slow calculator. You could type the following command to control the operation of threads.
 
 User Commands for the Solution.runCommand Method:
 
@@ -28,7 +28,7 @@ Response: Returns a message indicating the total number of ongoing calculations 
 get N:
 
 Description: Retrieves the result of the calculation for N.
-Action: Checks the status of the calculation for N.
+Action: Check the status of the calculation for N.
 Response:
 If the calculation is complete: “result is M”, where M is the integer result.
 If the calculation is still ongoing: “calculating”.
@@ -36,9 +36,9 @@ If the calculation is still ongoing: “calculating”.
 
 finish:
 
-Description: Waits for all previously requested calculations to complete.
+Description: Waits for all previously requested calculations to be completed.
 Action: Allows all ongoing calculations to finish.
-Response: Returns the message “Finished” after finishing all caculations.
+Response: Returns the message “Finished” after finishing all calculations.
 
 
 abort:
